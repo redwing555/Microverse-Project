@@ -5,22 +5,91 @@
     <title>Fork Me! FCC: Test Suite Template</title>
     <link rel="stylesheet" href="css/style.css">
   </head>
+<body>
+  <div id="page-wrapper">
+    <header id="header">
+      <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+      <div class="logo">
+        <img
+          id="header-img"
+          src="https://images-ext-1.discordapp.net/external/ubpsufBxtxODLkBODCf56BDoA2hjPSDNwS71ErctC_Q/%3Fq%3Dtbn%3AANd9GcT8UCcMwzwsh8rbguUhaC_EW-y5Pf2mLi-sJw%26usqp%3DCAU/https/encrypted-tbn0.gstatic.com/images"
+          alt="</coding>"
+        />
+      </div>
+    <nav id="nav-bar">
+      <ul>
+        <li><a class="nav-link" href="#features">Features</a></li>
+        <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
+        <li><a class="nav-link" href="#pricing">Pricing</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  <body>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <div class="container"></div>
 
-    <!--
+  <section id="hero">
+    <h2>Learn how to code like a pro</h2>
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <input
+        name="email"
+        id="email"
+        type="email"
+        placeholder="Enter your email address"
+        required
+      />
+      <input id="submit" type="submit" value="Get Started" class="btn" />
+    </form>
+  </section>
 
-    Hello Camper!
-
-    For now, the test suite only works in Chrome!
-    Please read the README below in the JS Editor before beginning.
-    Feel free to delete this message once you have read it.
-    Good luck and Happy Coding!
-
-    - The freeCodeCamp Team
-
-    -->
-    <script  src="js/index.js"></script>
-  </body>
+  <div class="container">
+    <section id="features">
+      <div class="grid">
+        <div class="icon"><i class="fa fa-3x fa-fire"></i></div>
+        <div class="desc">
+          <h2>Worldclass Turorials</h2>
+          <p>
+            learn how to code like some of the best coders in the world.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="how-it-works">
+      <iframe
+        id="video"
+        height="315"
+        src="https://www.youtube-nocookie.com/embed/WKuNWrxuJ9g?rel=0&amp;controls=0&amp;showinfo=0"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
+    </section>
+    <section id="pricing">
+      <div class="product" id="tenor">
+        <div class="level">Coding Bootcamp</div>
+        <h2>$600 / 6 months</h2>
+        
+        <button class="btn">Select</button>
+      </div>
+      <div class="product" id="bass">
+        <div class="level">coding university degree</div>
+        <h2>$900</h2>
+        
+        <button class="btn">Select</button>
+      </div>
+      <div class="product" id="valve">
+        <div class="level">Get work </div>
+        <h2>$1200</h2>
+        <button class="btn">Select</button>
+      </div>
+    </section>
+    <footer>
+      <ul>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <span>Copyright 2021, World Coders</span>
+    </footer>
+  </div>
+</div>
+</body>
 </html>
