@@ -9,7 +9,7 @@
 }
 
 body {
-  background-color: #eee;
+  background-color: #fff;
   font-family: 'Lato', sans-serif;
 }
 
@@ -58,7 +58,7 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #eee;
+  background-color: #fff;
 }
 
 @media (max-width: 600px) {
@@ -155,11 +155,11 @@ nav > ul {
   height: 30px;
   margin: 15px 0;
   border: 0;
-  background-color: #f1c40f;
+  background-color: #005f91;
 }
 
 #hero input[type='submit']:hover {
-  background-color: orange;
+  background-color: #005f91;
   transition: background-color 1s;
 }
 
@@ -265,12 +265,12 @@ nav > ul {
 .product > button {
   border: 0;
   margin: 15px 0;
-  background-color: #f1c40f;
+  background-color: #005f91;
   font-weight: 400;
 }
 
 .product > button:hover {
-  background-color: orange;
+  background-color: #005e9165;
   transition: background-color 1s;
 }
 
